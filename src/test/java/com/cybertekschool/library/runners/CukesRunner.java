@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "com/cybertekschool/library/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@add_book_api"
 )
 public class CukesRunner {
