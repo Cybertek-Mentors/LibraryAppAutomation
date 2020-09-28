@@ -22,7 +22,7 @@ public class LibrarianAuthenticationUtility implements AuthenticationUtility {
                     formParam("email", username).
                     formParam("password", password).
                     log().all().
-                when().
+                    when().
                     post(Endpoints.LOGIN).prettyPeek();
             response.then().statusCode(200);
         }
