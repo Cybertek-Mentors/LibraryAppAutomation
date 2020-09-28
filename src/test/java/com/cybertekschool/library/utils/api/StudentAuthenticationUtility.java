@@ -1,7 +1,7 @@
 package com.cybertekschool.library.utils.api;
 
-import com.cybertek.library.utilities.common.Encoder;
-import com.cybertek.library.utilities.common.Environment;
+import com.cybertekschool.library.utils.common.Encoder;
+import com.cybertekschool.library.utils.common.Environment;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;

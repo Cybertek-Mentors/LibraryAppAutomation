@@ -40,6 +40,15 @@ public class BooksPage extends BasePage {
     @FindBy(id = "book_categories")
     public WebElement mainCategoryElement;
 
+    @FindBy(xpath = "//a[contains(@onclick,'Books.borrow_book')]") //H*************
+    public WebElement borrowBookBtn;
+
+    @FindBy(xpath = "//i[contains(@class,'fa fa-angle-right')]") //H*************
+    public WebElement nextBtn;
+
+    @FindBy(linkText = "Return Book")               //H*************************
+    public List<WebElement> returnBookBtn;
+
     public WebElement editBook(String book) {
         String xpath = "//td[3][.='" + book + "']/../td/a";
         return Driver.getDriver().findElement(By.xpath(xpath));

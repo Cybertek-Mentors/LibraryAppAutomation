@@ -1,6 +1,6 @@
 package com.cybertekschool.library.pages;
 
-import com.cybertek.library.utilities.ui.Driver;
+import com.cybertekschool.library.utils.ui.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
